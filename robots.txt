@@ -1,0 +1,23 @@
+# robots.txt for kktcprefabrikev.com
+# Last updated: 2026-03-23
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.kktcprefabrikev.com/sitemap.xml
+
+# Disallow admin and private paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*.json$
+
+# Allow search engine crawlers to access CSS, JS, and images
+Allow: /style.css
+Allow: /responsive.css
+Allow: /script.js
+Allow: /images/
+
+# Crawl-delay for politeness
+Crawl-delay: 1
